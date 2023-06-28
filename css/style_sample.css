@@ -1,0 +1,440 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../images/rough-beige-wooden-textured.jpeg);
+    
+}
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.logo {
+    background-image: url(../images/logo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-top: 100px;
+}
+.brand {
+    margin-top: 150px;
+    font-family: 'Open Sans', sans-serif; 
+    font-style: italic;
+    font-weight: 800;
+    font-size: 35px;
+} 
+.split {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 35px;
+}
+.acctnav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 60px;
+    margin-top: 170px;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #6A6C6E;
+}
+a {
+    font-family: arial;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.acctmenufirst {
+    margin-left: 7px;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-left: 325px;
+    width: 1040px;
+    height: 55px;
+    background-image: url(../images/dark_wood_background.jpeg);
+    background-size: cover;
+}
+#navmenuhome {
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/darker_wood_background.jpeg);
+    background-size: cover;
+    width: 8%;
+    height: 100%;
+}
+#home {
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: bold;
+    color: #eeeeec;
+    padding-top: 20px;
+}
+.navbarmenu {
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: bold;
+    color: #eeeeec;
+    background-image: url(../images/dark_wood_background.jpeg);
+    background-size: cover;
+    width: 8%;
+    height: 100%;
+    padding-top: 20px;
+}
+.navbarmenu:hover {
+    background-image: url(../images/darker_wood_background.jpeg);
+}
+.navbarmenulg {
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: bold;
+    color: #eeeeec;
+    background-image: url(../images/dark_wood_background.jpeg);
+    background-size: cover;
+    width: 20%;
+    height: 100%;
+    padding-top: 20px;
+}
+.navbarmenulg:hover {
+    background-image: url(../images/darker_wood_background.jpeg);
+}
+.container {
+    display: flex;
+    width: 1040px;
+    height: 400px;
+    background-color: white;
+    margin-left: 325px;
+}
+.description {
+    font-weight: normal;
+    color: lightblue;
+    letter-spacing: 0;
+    padding-left: 7%;
+}
+#headerpromo {
+    font-size: 18px;
+    color: lightgrey;
+    margin-top: 20%;
+}
+#stayspromo {
+    font-family: Arial;
+    font-size: 30px;
+    margin-top: -4px;
+    padding-top: 0;
+    color: aliceblue;
+}
+#pricepromo {
+    color: #adbb28;
+    font-family: Arial;
+    font-size: 18px;
+}
+#detailspromo {
+    margin-top: 30px;
+}
+.topfeatures {
+    display: flex;
+    position: relative;
+    width: 1040px;
+    height: 400px;
+}
+img {
+    width: 700px;
+    height: 400px;
+}
+.containrdescription {
+    display: flex;
+    position: relative;
+    width: 340px;
+    height: 400px;
+}
+.carousel-item {
+    display: flex;
+}
+.carousel-description {
+    width: 35%;
+    background-image: url("../images/dark_wood_background.jpeg");
+    background-size: cover;
+}
+.carousel-item img {
+    width: 65%;
+}
+.buyit {
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 85px;
+    height: 38px;
+    padding-top: 10px;
+    font-size: 13px;
+    border-radius: 5px;
+    background: linear-gradient( to bottom, rgba(167,183,34,1), rgba(110,135,22,1));
+    color: aliceblue;
+    text-align: center;
+}
+.carousel2-item {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 1040px;
+    height: 300px;
+    margin-left: 325px;
+}
+.tour-packages {
+    text-align: center;
+}
+.tour-packages-images {
+    width: 180px;
+    height: 120px;
+    margin-top: 40%;
+    border-bottom: 3px solid gray;
+}
+.tour-packages-price {
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 10px;
+    color: black;
+}
+.tour-packages-name {
+    color:black;
+    font-size: 20px;
+    font-family: arial;
+}
+.imagedetails {
+    width: 50%;
+    height: 10%;
+    margin-top: 15px;
+    margin-left: 25%;
+    padding-top: 4px;
+    color: #454545;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.imagedetails:hover {
+    background-color: darkgrey;
+    border: 1px solid lightslategray;
+}
+.container3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 5px;
+}
+.horizontal-line {
+    margin-top: 30px;
+    width: 940px;
+    height: 5px;
+    top: 964px;
+    left: 20px;
+    z-index: 20023;
+    background-color: black;
+}
+.container4 {
+    display: flex;
+    text-align: left;
+    vertical-align: top;
+}
+.blogs {
+    margin-left: 330px;
+}
+.titles {
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 70px;
+}
+b {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+.vacation_packages {
+    margin-left: 95px;
+}
+.package_deals_container {
+    width: 400px;
+    height: 210px;
+    margin-left: 220px;
+}
+.package_deals_title {
+    font-size: 20px;
+    font-weight: normal;
+}
+.initial_title {
+    font-size: 30px;
+}
+.package_deals_price {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 25px;
+}
+.vacation_packages_details {
+    margin-top: 10px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: none;
+    color: darkslategray;
+}
+#readmore {
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    margin-left: 0;
+    font-size: 12px;
+}
+.image_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 210px;
+    height: 208px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+#second_image_container {
+    margin-top: 80px;
+}
+.image_packages {
+    width: 200px;
+    height: 200px;
+    margin-top: 3px;
+    background-image: url(../images/paloAlto.jpeg);
+    background-size: cover;
+    border-radius: 3px;
+}
+.sub_options {
+    display: flex;
+margin-top: 15px;
+margin-bottom: -5px;
+        width: 320px;
+        height: 23px;
+    }
+.sub_option_icon {
+    width: 28px;
+    height: 23px;
+    background-image: url(../images/icons8-_-icon-24.png);
+    
+}
+.sub_option_details {
+    margin-left: 10px;
+    text-decoration: underline;
+}
+.sub_options:hover .sub_option_details {
+    text-decoration: none;
+}
+#stories {
+    margin-top: 30px;
+}
+#deals {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.subscribe {
+    display: flex;
+    text-align: center;
+}
+.input_bar {
+    margin-top: 20px;
+}
+.subscribe_button {
+    margin-top: 20px;
+    width: 90px;
+    height: 50px;
+    color: #787f86;
+    border: 1px solid #827D75;
+    background-image: linear-gradient(#E2E3E0, #CECEC9);
+}
+.subscribe_button:hover {
+    background-image: linear-gradient(#CECEC9, #E2E3E0);
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 100%;
+    background-image: url(../images/oak-wooden-textured-design-background.jpeg);
+    background-size: cover;
+    
+}
+.contacts, .menu, .recent_post, .followus {
+    text-align: center;
+    width: 20%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: black;
+}
+.contacts, .menu, .recent_post, .followus > h3 {
+    margin-top: 40px;
+}
+.contacts {
+    margin-left: 180px;
+    margin-bottom: 30px;
+}
+.contacts > p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.first_hand {
+    margin-top: 15px;
+}
+.menu, .recent_post {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.first_menu, .first_recent {
+    margin-top: 5px;
+}
+.menu > p > a:hover {
+    color: white;
+}
+.recent_post > p > a:hover {
+    color: white;
+}
+.icons {
+    margin-top: 15px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    width: 50px;
+    height: 50px;
+    list-style-type: none;
+    float: left;
+    margin: 15px;
+    position: relative;
+  }
+  li img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+  }
+  a:hover img {
+    width: 60px;
+    height: 60px;
+  }
+  
